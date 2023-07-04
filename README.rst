@@ -7,13 +7,13 @@ Installing Through PyPi
 =======================
 ::
 
-	pip3 install wproxy
+    pip3 install wproxy
 
 Using the library
 =================
 ::
 
-	from wproxy import WProxy
+    from wproxy import WProxy
 
     this_proxy = WProxy(
         host="0.0.0.0",
