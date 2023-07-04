@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wproxy"
+version = "0.0.2"
+description = "Websocket proxy"
+readme = "README.rst"
+authors = [{ name = "Ferdinand Silva", email = "ferdinandsilva@ferdinandsilva.com" }]
+requires-python = ">=3.6"
+classifiers = [
+    "Intended Audience :: Developers",
+    "Natural Language :: English",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+dependencies = [
+    "websockets",
+]
+
+[project.urls]
+Home = "https://github.com/six519/wproxy"
+
+[project.scripts]
+wproxy = "wproxy:run"
